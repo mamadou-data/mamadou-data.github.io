@@ -3,21 +3,76 @@
 
 @import "{{ site.theme }}";
 
-/* Arrondir la photo */
-img.profile-pic {
-  border-radius: 15px; /* change à 50% si tu veux cercle */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
+/* ============================= */
+/*      LAYOUT GLOBAL            */
+/* ============================= */
 
-/* Changer fond principal */
 .main-content {
-  background-color: #f4f6f9;  /* gris très clair moderne */
+  background-color: #f8fafc;   /* Gris très léger moderne */
 }
 
-/* Bloc présentation */
+.wrapper {
+  max-width: 1000px;
+}
+
+/* ============================= */
+/*      PROFILE CARD             */
+/* ============================= */
+
 .profile-box {
   background-color: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  margin-top: -60px;   /* Remonte légèrement sous la bannière */
+  margin-bottom: 40px;
+}
+
+/* ============================= */
+/*      PHOTO PROFIL             */
+/* ============================= */
+
+img.profile-pic {
+  border-radius: 20px;     /* Mets 50% si tu veux cercle parfait */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border: 4px solid white;
+  transition: transform 0.3s ease;
+}
+
+img.profile-pic:hover {
+  transform: scale(1.03);
+}
+
+/* ============================= */
+/*      BADGES CERTIFICATIONS    */
+/* ============================= */
+
+.profile-box img {
+  margin-right: 12px;
+  margin-top: 8px;
+}
+
+/* ============================= */
+/*      TITRES SECTIONS          */
+/* ============================= */
+
+h1, h2 {
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+/* ============================= */
+/*      LIENS                    */
+/* ============================= */
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
