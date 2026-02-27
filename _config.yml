@@ -1,10 +1,8 @@
-title: "Mamadou DIEDHIOU"
+title: Mamadou DIEDHIOU
+description: Data Analyst BI | Power BI | Cloud Analytics
 theme: jekyll-theme-cayman
-lang: fr
 
-url: "https://mamadou-data.github.io"
-baseurl: "/My-Page"
+show_downloads: false
+google_analytics:
 
-github:
-  is_project_page: true
-  repository_url: "https://github.com/mamadou-data/My-Page"
+markdown: kramdown
