@@ -1,6 +1,3 @@
-# Mamadou DIEDHIOU  
-## Data Analyst BI | Power BI | Cloud Analytics  
-
 <table>
 <tr>
 <td width="35%">
@@ -22,7 +19,8 @@ avec expertise en **Power BI avancé (DAX, modélisation en étoile)** et capaci
 
 Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation et aide à la décision stratégique.
 
-📍 France / Remote  
+📍 France / Remote 
+
 📌 Disponible immédiatement  
 
 <br>
@@ -89,7 +87,7 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - KPIs assurance (fréquence, gravité, sinistralité)
 - Dataset optimisé Power BI
 
-👉 https://github.com/mamadou-data/databricks-insurance-star-schema-bi  
+👉 [Lien](https://github.com/mamadou-data/databricks-insurance-star-schema-bi)
 
 ---
 
@@ -99,7 +97,7 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - Modélisation analytique optimisée
 - Dashboard décisionnel
 
-👉 https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics  
+👉 [Lien](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics) 
 
 ---
 
@@ -109,17 +107,17 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - Data Warehouse MySQL
 - Dashboard Power BI orienté performance
 
-👉 https://github.com/mamadou-data/retail-sales-etl-bi  
+👉 [Lien](https://github.com/mamadou-data/retail-sales-etl-bi)
 
 ---
 
 # ☁️ Projets Cloud
 
 ## GCP – ELT E-commerce & BigQuery ML  
-👉 https://github.com/mamadou-data/gcp-ecommerce-elt-ml  
+👉 [Lien](https://github.com/mamadou-data/gcp-ecommerce-elt-ml)  
 
 ## NYC Taxi – ELT Pipeline GCP  
-👉 https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics  
+👉 [Lien](https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics) 
 
 ---
 
@@ -131,11 +129,11 @@ Iris ML App
 Web Scraping  
 Dashboards Power BI  
 
-👉 https://github.com/mamadou-data  
+👉 [Lien](https://github.com/mamadou-data) 
 
 ---
 
 # 📩 Contact
 
-[LinkedIn :](https://www.linkedin.com/in/diedhiou/)  
+[LinkedIn](https://www.linkedin.com/in/diedhiou/)  
 Email : mdiedhio@gmail.com
