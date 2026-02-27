@@ -182,4 +182,5 @@ Dashboards BI sur cas Ventes, RH et CRM avec DAX avancé.
 📩 Contact
 
 [LinkedIn :](https://www.linkedin.com/in/diedhiou/)
-[Email :](mdiedhio@gmail.com)
+
+Email : mdiedhio@gmail.com
