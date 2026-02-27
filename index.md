@@ -1,127 +1,141 @@
----
-layout: page
-title: "Mamadou DIEDHIOU"
----
+# Mamadou DIEDHIOU  
+## Data Analyst BI | Power BI | Cloud Analytics  
 
-<p align="center">
-  <img src="img/mypicture.jpg" width="220" style="border-radius: 50%;" />
-</p>
+<table>
+<tr>
+<td width="35%">
 
-<h1 align="center">
-Data Analyst / BI Analyst<br/>
-Power BI • SQL • Python • Cloud
-</h1>
+<img src="img/mypicture.jpg" width="200"/>
 
-<p align="center">
-Data Analyst / BI orienté décision métier. Spécialisé en Power BI, automatisation analytique et modélisation statistique.<br/>
-Habitué aux environnements corporate et aux projets data end-to-end.<br/>
-Ouvert aux opportunités <b>CDD / CDI – Data Analyst / BI Analyst / Chargé d’Études</b>.<br/>
-📌 Disponible immédiatement – France / Remote
-</p>
+<br><br>
 
-<p align="center" style="display:flex; justify-content:center; gap:20px; margin-top:10px; flex-wrap:wrap;">
-  <a href="https://learn.microsoft.com/en-us/users/mamadoudiedhiou-1442/credentials/certification/data-analyst-associate?tab=credentials-tab" target="_blank">
-    <img src="img/badges/pl-300.png?v=1" height="85"/>
-  </a>
-  <a href="https://www.credly.com/badges/d63b076f-1765-4b59-8bff-2f666a457e42/linked_in?t=sxum6j" target="_blank">
-    <img src="img/badges/azure-data-fundamentals.png?v=1" height="85"/>
-  </a>
-</p>
+<a href="img/CV_Mamadou_DIEDHIOU.pdf" target="_blank">
+📄 Télécharger mon CV
+</a>
 
-<div align="center">
-  <h2>🚀 Projets phares</h2>
+</td>
 
-  <p style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:20px 0;">
+<td width="65%">
 
-    <a href="https://github.com/mamadou-data/retail-sales-etl-bi" target="_blank">
-      <img src="https://img.shields.io/badge/Retail%20Sales%20ETL%20%26%20BI-MySQL%20%7C%20Power%20BI-2ea44f?style=for-the-badge" />
-    </a>
+Data Analyst spécialisé en **Business Intelligence et pilotage décisionnel**,  
+avec expertise en **Power BI avancé (DAX, modélisation en étoile)** et capacité à implémenter des **pipelines analytiques cloud (BigQuery, Databricks)**.
 
-    <a href="https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics" target="_blank">
-      <img src="https://img.shields.io/badge/NYC%20Yellow%20Taxi%20ELT-GCP%20%7C%20BigQuery%20%7C%20Airflow-0A66C2?style=for-the-badge" />
-    </a>
+Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation et aide à la décision stratégique.
 
-    <a href="https://github.com/mamadou-data/Power-BI" target="_blank">
-      <img src="https://img.shields.io/badge/Power%20BI%20Dashboards-DAX%20%7C%20Mod%C3%A9lisation-555?style=for-the-badge" />
-    </a>
+📍 France / Remote  
+📌 Disponible immédiatement  
 
-    <a href="https://github.com/mamadou-data/Projet-Scoring" target="_blank">
-      <img src="https://img.shields.io/badge/Scoring%20%26%20Risk%20Prediction-ML%20%7C%20Classification-6f42c1?style=for-the-badge" />
-    </a>
+<br>
 
-    <a href="https://github.com/mamadou-data/telco_churn_prediction" target="_blank">
-      <img src="https://img.shields.io/badge/Churn%20Prediction-T%C3%A9l%C3%A9coms%20%7C%20ML-e5533d?style=for-the-badge" />
-    </a>
+<img src="img/badges/pl-300.png" width="110"/>
+<img src="img/badges/azure-data-fundamentals.png" width="110"/>
 
-    <a href="https://github.com/mamadou-data/iris-streamlit-app" target="_blank">
-      <img src="https://img.shields.io/badge/ML%20%26%20Streamlit-Classification%20%7C%20App%20Web-7952b3?style=for-the-badge" />
-    </a>
-
-  </p>
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎓 Formations
-- 🎓 **Master 2 – Innovation, Marché & Science des Données** (Paris-Saclay, Evry) – 2024/2025  
-- 🎓 **Master 2 – Expertise Économique** (Lille) – 2022/2024  
-- 🎓 **Licence 3 – Économétrie** (Orléans) – 2022/2023  
+# 💼 Expérience Professionnelle
+
+## AXA France – Chargé d’Études Statistiques  
+**2024 – 2025**
+
+- Conception de dashboards décisionnels Power BI  
+- Modélisation et optimisation de reportings  
+- Automatisation de traitements analytiques (SAS/WPS, VBA)  
+- Appui stratégique aux équipes métier  
+
+**Impact :** réduction des délais et fiabilisation des indicateurs.
 
 ---
 
-## 🧠 Compétences clés
+## AXA France – Chargé d’Études & Optimisation  
+**2024**
 
-### Business Intelligence & Data Visualisation
-- Power BI (avancé) : DAX, KPIs, modélisation étoile/flocon
-- Power BI Service : publication, sécurité, actualisation
-- Dashboards décisionnels (Finance, RH, CRM, Ventes)
-- Data storytelling & bonnes pratiques de visualisation
-
-### Statistiques & Machine Learning
-- Régression : Linéaire, Ridge, Lasso, XGBoost
-- Classification : Logistic Regression, Random Forest, XGBoost, LightGBM
-- Segmentation, scoring, churn prediction
-- Évaluation : Accuracy, F1-score, ROC AUC, MAE, RMSE, R²
-
-### Data Engineering & Automatisation
-- SQL : PostgreSQL, Azure SQL, BigQuery
-- Pipelines ETL / ELT
-- Python (pandas, numpy, scikit-learn)
-- Automatisation : VBA, SAS / WPS
-- Cloud : Azure, Google Cloud Platform
-
-### Outils
-Power BI • Python • R • SAS • SQL • Git/GitHub • Streamlit • VS Code • Databricks • Dataiku
+- Développement de tableaux de bord BI  
+- Analyse des besoins métiers  
+- Amélioration des processus décisionnels  
 
 ---
 
-## 💼 Expérience professionnelle
+# 🧠 Compétences
 
-### Chargé d’Études Statistiques – AXA France  
-📅 Septembre 2024 – Septembre 2025  
-- Automatisation des processus analytiques (SAS/WPS, VBA)
-- Optimisation de traitements Excel (réduction significative des délais)
-- Conception de dashboards Power BI pour le suivi des aides aux agents généraux
-- Appui à la prise de décision pour les équipes métiers
+## Business Intelligence
+- Power BI (DAX avancé, KPIs, optimisation modèle)
+- Modélisation en schéma étoile
+- Power BI Service (RLS, publication, actualisation)
+- Data storytelling
 
-### Chargé d’Études & Optimisation – AXA France  
-📅 Janvier 2024 – Juin 2024  
-- Développement et mise en production de tableaux de bord Power BI
-- Analyse des besoins métiers et participation aux ateliers de conception
-- Amélioration des processus décisionnels via la data
+## Cloud & Pipelines
+- Databricks & Delta Lake
+- BigQuery
+- Airflow / Cloud Composer
+- SQL (PostgreSQL, Azure SQL)
 
----
-
-## 🎓 Certifications
-- 📈 Microsoft Certified : Power BI Data Analyst Associate (PL-300)  
-- ☁️ Microsoft Certified : Azure Data Fundamentals  
-- 🧠 Dataiku Advanced Designer Certificate  
-- 🧮 Udemy Certified : SAS – Programmation  
+## Analyse & Modélisation
+- Régression & classification
+- Segmentation & scoring
+- ROC AUC, RMSE, F1-score
 
 ---
 
-## ✅ Ce que je peux apporter
-- Structuration et fiabilisation des données
-- Création de dashboards décisionnels orientés métier
-- Automatisation des reportings
-- Appui à la prise de décision stratégique
+# 🚀 Projets Phares
+
+## 🛡️ Insurance Analytics – Star Schema BI (Databricks)
+
+- Architecture Delta Lake
+- Conception schéma étoile
+- KPIs assurance (fréquence, gravité, sinistralité)
+- Dataset optimisé Power BI
+
+👉 https://github.com/mamadou-data/databricks-insurance-star-schema-bi  
+
+---
+
+## 🟡 NYC Taxi Analytics – Architecture Medallion & Power BI
+
+- Pipeline Bronze → Silver → Gold
+- Modélisation analytique optimisée
+- Dashboard décisionnel
+
+👉 https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics  
+
+---
+
+## 📊 Retail Sales – Data Warehouse & BI
+
+- ETL Python
+- Data Warehouse MySQL
+- Dashboard Power BI orienté performance
+
+👉 https://github.com/mamadou-data/retail-sales-etl-bi  
+
+---
+
+# ☁️ Projets Cloud
+
+## GCP – ELT E-commerce & BigQuery ML  
+👉 https://github.com/mamadou-data/gcp-ecommerce-elt-ml  
+
+## NYC Taxi – ELT Pipeline GCP  
+👉 https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics  
+
+---
+
+# 📉 Autres Projets
+
+Risk Scoring – Assurance  
+Churn Prediction – Télécom  
+Iris ML App  
+Web Scraping  
+Dashboards Power BI  
+
+👉 https://github.com/mamadou-data  
+
+---
+
+# 📩 Contact
+
+[LinkedIn :](https://www.linkedin.com/in/diedhiou/)  
+Email : mdiedhio@gmail.com
