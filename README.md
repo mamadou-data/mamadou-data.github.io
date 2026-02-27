@@ -1,200 +1,185 @@
-Data Analyst / BI orienté décision métier. Spécialisé en Power BI, automatisation analytique et modélisation statistique.  
-Habitué aux environnements corporate et aux projets data end-to-end.
+# Mamadou DIEDHIOU
+## Data Analyst BI | Power BI | Cloud Analytics
 
-Après une alternance chez AXA France en tant que Chargé d’Études Statistiques,  
-je suis ouvert aux opportunités **CDD / CDI – Data Analyst / BI Analyst / Chargé d’Études**.
+Data Analyst spécialisé en Business Intelligence et pilotage décisionnel,
+avec expertise en Power BI avancé (DAX, modélisation en étoile) et capacité à implémenter des pipelines analytiques cloud (BigQuery, Databricks).
 
-📌 Disponible immédiatement – France / Remote
+Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation des processus analytiques et aide à la décision stratégique.
 
----
-# Formations
-🎓 Master 2 – Innovation, Marché & Science des Données (Paris-Saclay, Evry) – 2024/2025  
-🎓 Master 2 – Expertise Économique (Lille) – 2022/2024  
-🎓 Licence 3 – Économétrie (Orléans) – 2022/2023  
+📍 France / Remote
+📌 Disponible immédiatement
 
 ---
 
-# Compétences clés
+## 🎓 Certifications
 
-### Business Intelligence & Data Visualisation
-- Power BI (avancé) : DAX, KPIs, modélisation étoile/flocon
-- Power BI Service : publication, sécurité, actualisation
-- Dashboards décisionnels (Finance, RH, CRM, Ventes)
-- Data storytelling & bonnes pratiques de visualisation
+(À afficher visuellement à côté de la photo de profil)
 
-### Statistiques & Machine Learning
-- Régression : Linéaire, Ridge, Lasso, XGBoost
-- Classification : Logistic Regression, Random Forest, XGBoost, LightGBM
-- Segmentation, scoring, churn prediction
-- Évaluation : Accuracy, F1-score, ROC AUC, MAE, RMSE, R²
-
-### 🗄️ Data Engineering & Automatisation
-- **SQL** : PostgreSQL, Azure SQL, BigQuery
-- **Pipelines** ETL / ELT
-- **Python** (pandas, numpy, scikit-learn)
-- **Automatisation** : VBA, SAS / WPS
-- **Cloud** : Azure, Google Cloud Platform
-
-### 🛠️ Outils
-Power BI • Python • R • SAS • SQL • Git/GitHub • Streamlit • VS Code • Databricks • Dataiku
+- Microsoft Certified – Power BI Data Analyst Associate (PL-300)
+- Microsoft Certified – Azure Data Fundamentals
+- Dataiku Advanced Designer
+- SAS Programming Certification
 
 ---
 
-# 💼 Expérience professionnelle
+## 💼 Expérience Professionnelle
 
-### **Chargé d’Études Statistiques – AXA France**  
-📅 Septembre 2024 – Septembre 2025  
-- Automatisation des processus analytiques (SAS/WPS, VBA)
-- Optimisation de traitements Excel (réduction significative des délais)
-- Conception de dashboards Power BI pour le suivi des aides aux agents généraux
-- Appui à la prise de décision pour les équipes métiers
+### AXA France – Chargé d’Études Statistiques | 2024 – 2025
 
-### **Chargé d’Études & Optimisation – AXA France**  
-📅 Janvier 2024 – Juin 2024  
-- Développement et mise en production de tableaux de bord Power BI
-- Analyse des besoins métiers et participation aux ateliers de conception
+- Conception de dashboards décisionnels Power BI
+- Modélisation et optimisation de reportings
+- Automatisation de traitements analytiques (SAS/WPS, VBA)
+- Appui stratégique aux équipes métier
+Impact : réduction des délais de production et amélioration de la fiabilité des indicateurs.
+
+### AXA France – Chargé d’Études & Optimisation 01/2024 - 06/2024
+
+- Développement de tableaux de bord BI
+- Analyse des besoins métiers et ateliers de conception
 - Amélioration des processus décisionnels via la data
 
 ---
 
-# Projets Data – GitHub
+## 🧠 Compétences Clés
 
-## 🚕 NYC Yellow Taxi Analytics — Databricks & Power BI
+### Business Intelligence
 
-**Projet d’analyse end-to-end basé sur une architecture Medallion (Bronze/Silver/Gold) sur Databricks.**
+- Power BI (DAX avancé, Time Intelligence, KPIs, optimisation modèle)
+- Modélisation en schéma étoile / flocon
+- Power BI Service (RLS, publication, actualisation)
+- Data storytelling orienté décision
 
-- Pipeline automatisé via Databricks Workflows, données modélisées en schéma étoile (Delta Lake).  
-- Dashboard Power BI interactif (DAX avancé) : KPI, tendances, analyse géographique Pickup vs Dropoff, qualité des données.
-- 👉 **[Lien du projet](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics)**
+### Implémentation Cloud & Pipelines
 
-## 📊 Retail Sales ETL & BI (MySQL / Power BI)
-
-**Projet end-to-end Data Analyst / BI : de la donnée brute à l’aide à la décision.**
-
-- Pipeline ETL en Python avec contrôles de qualité
-- Data Warehouse MySQL en schéma étoile
-- Modélisation analytique pour Power BI
-- Dashboard interactif orienté pilotage métier
-
-🎯 Objectif métier : identifier les leviers de croissance et fiabiliser la prise de décision.
-- 👉 **[Retail Sales ETL-BI](https://github.com/mamadou-data/retail-sales-etl-bi)**
-
----
-
-## 📊 Pipeline ELT & Machine Learning E-commerce (GCP)
-
-**Développement d’un pipeline ELT automatisé sur GCP (GCS, BigQuery, Airflow/Cloud Composer) avec intégration Machine Learning via BigQuery ML pour la prédiction de l’activité client.**
-
-- Pipeline ELT automatisé sur Google Cloud Platform
-- Orchestration avec Airflow (Cloud Composer)
-- Modélisation BigQuery + BigQuery ML
-- Prédiction de l’activité client (ROC AUC ≈ 0.88)
-- 👉 **[gcp-ecommerce-elt-ml](https://github.com/mamadou-data/gcp-ecommerce-elt-ml)**
-
----
-
-## 📊 Projets Power BI – Dashboards & Cas pratiques
-- Dashboards BI sur des cas Ventes, RH et CRM  
-- DAX, modélisation avancée, Power BI Service  
-- 👉 **[Power-BI](https://github.com/mamadou-data/Power-BI)** 
-
----
-
-## 🚕 NYC Yellow Taxi – ELT Pipeline sur GCP
-
-Pipeline **ELT cloud-native** de bout en bout sur Google Cloud Platform, depuis l’ingestion de données brutes jusqu’à l’analyse avancée et la préparation au Machine Learning.
-
-**Objectif** : concevoir un pipeline reproductible, automatisé et orienté analytics, basé sur des données réelles à fort volume.
-
-### 🔧 Stack technique
-- Google Cloud Storage (GCS)
+- Conception ETL / ELT
+- Databricks & Delta Lake
 - BigQuery (RAW / TRANSFORMED / VIEWS)
-- Cloud Composer (Airflow 2)
-- Python
-- SQL (BigQuery)
-- BigQuery Notebooks
+- Airflow / Cloud Composer
+- SQL (PostgreSQL, Azure SQL, BigQuery)
 
-### 🏗️ Architecture & étapes clés
-- **Ingestion automatisée** des données NYC Yellow Taxi (format Parquet)
-- **Stockage cloud** des données brutes dans GCS
-- **Chargement BigQuery** idempotent (gestion des doublons par fichier source)
-- **Transformation SQL** (nettoyage, filtrage, structuration analytique)
-- **Orchestration Airflow** via Cloud Composer
-- **Création de vues analytiques** prêtes pour le reporting
-- **Analyse & visualisation** via Notebooks Python BigQuery
-- **Projet ML-ready** (préparation BigQuery ML)
+### Analyse & Modélisation
 
-### 📊 Cas d’analyses réalisés
-- Évolution de la demande dans le temps (journalière, hebdomadaire, mensuelle)
-- Identification des **heures de pointe par borough et zone**
-- Analyse spatiale et temporelle des usages taxi
-- Préparation de features pour usages prédictifs
-
-### 📦 Livrables
-- Pipeline Airflow opérationnel
-- Tables BigQuery RAW et TRANSFORMED
-- Vues analytiques SQL
-- Notebooks d’analyse Python
-- Documentation complète (README)
-
-- 👉**[Yellow_Taxi_Trips_Analytics](https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics)**
+- Régression (Linéaire, Ridge, Lasso, XGBoost)
+- Classification (Logistic, Random Forest, XGBoost)
+- Segmentation & scoring
+- Évaluation : ROC AUC, RMSE, F1-score
 
 ---
 
-## 📉 Scoring & Prédiction du Risque
-- Modèles de scoring et segmentation des profils assurés  
-- Régression & classification supervisée  
-- 👉 **[Projet-Scoring](https://github.com/mamadou-data/Projet-Scoring)**
-- 👉 **[Risk-Profil-Prediction](https://github.com/mamadou-data/Risk-Profil-Prediction)**
+## 🚀 Projets Phares
+
+### 🛡️ Insurance Analytics – Star Schema BI (Databricks)
+
+Implémentation d’un modèle analytique assurance de niveau production.
+
+- Architecture cloud sur Databricks (Delta Lake)
+- Conception complète d’un schéma en étoile
+- Tables de faits & dimensions optimisées BI
+- KPIs métier : fréquence, gravité, sinistralité, segmentation portefeuille
+- Dataset optimisé pour Power BI
+
+**Objectif** : structurer des données complexes pour un pilotage assurance fiable et performant.
+
+👉 https://github.com/mamadou-data/databricks-insurance-star-schema-bi
+
+### 🟡 NYC Taxi Analytics – Architecture Medallion & Power BI
+
+Projet end-to-end sur données volumineuses.
+
+- Pipeline Bronze → Silver → Gold
+- Modélisation analytique optimisée
+- Dataset Power BI performant (DAX avancé)
+- Dashboard décisionnel : tendances, analyse géographique, KPIs opérationnels
+
+**Objectif** : transformer des données brutes en outil décisionnel exploitable.
+
+👉 https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics
+
+### 📊 Retail Sales – Data Warehouse & BI
+
+Projet Data Analyst complet orienté pilotage commercial.
+
+- ETL Python avec contrôles qualité
+- Data Warehouse MySQL en schéma étoile
+- Modélisation BI & KPIs commerciaux
+- Dashboard interactif orienté performance
+
+**Objectif** : fournir des leviers de croissance via l’analyse BI.
+
+👉 https://github.com/mamadou-data/retail-sales-etl-bi
 
 ---
 
-## 📡 Churn Prediction – Télécommunications
-- Anticipation des départs clients  
-- Machine Learning + évaluation complète  
-- Déploiement via **Streamlit**  
-- 👉 **[telco_churn_prediction](https://github.com/mamadou-data/telco_churn_prediction)**  
+## ☁️ Projets Cloud & Pipelines
+
+### GCP – ELT E-commerce & BigQuery ML
+
+Pipeline ELT automatisé sur Google Cloud Platform.
+
+- Ingestion GCS
+- Transformation SQL BigQuery
+- Orchestration Airflow
+- Modèle BigQuery ML (ROC AUC ≈ 0.88)
+
+👉 https://github.com/mamadou-data/gcp-ecommerce-elt-ml
+
+### NYC Taxi – ELT Pipeline GCP
+
+Pipeline cloud-native orchestré avec Airflow et BigQuery.
+
+- Chargement idempotent Parquet
+- Structuration analytique
+- Création de vues prêtes pour reporting
+
+👉 https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics
+
+## 📉 Projets Analyse & Machine Learning
+
+### Risk Scoring – Assurance
+
+Segmentation et classification multi-classes pour analyse du risque.
+
+- Modèles supervisés
+- Importance des variables
+- Matrices de confusion & ROC
+
+👉 [Scoring](https://github.com/mamadou-data/Projet-Scoring)
+
+👉 [Prédiction du profil de risque](https://github.com/mamadou-data/Risk-Profil-Prediction) 
+
+### Churn Prediction – Télécommunications
+
+Modèle prédictif du départ client avec déploiement Streamlit.
+
+- Feature engineering
+- Comparaison de modèles
+- Évaluation complète
+
+👉 https://github.com/mamadou-data/telco_churn_prediction
+
+### Web Scraping & Analyse
+
+Collecte automatisée de données, nettoyage et analyse exploratoire.
+
+👉 https://github.com/mamadou-data/projet-scraping
+
+### Dashboards Power BI – Cas pratiques
+
+Dashboards BI sur cas Ventes, RH et CRM avec DAX avancé.
+
+👉 https://github.com/mamadou-data/Power-BI
 
 ---
+## 🎯 Ce que j’apporte 
 
-## 🌸 Machine Learning & Streamlit
-- Application web interactive (Iris Dataset)  
-- Classification et visualisation en temps réel  
-- 👉 **[iris-streamlit-app](https://github.com/mamadou-data/iris-streamlit-app)**
-
----
-
-## 🌐 Web Scraping & Analyse de données
-- Collecte automatisée de données  
-- Nettoyage, analyse exploratoire et visualisation  
-- 👉 **[projet-scraping](https://github.com/mamadou-data/projet-scraping)**
-
----
-
-# 🎓 Certifications
-- 📈 Microsoft Certified : Power BI Data Analyst Associate  
-- ☁️ Microsoft Certified : Azure Data Fundamentals
-- 🧠 Dataiku Advanced Designer Certificate
-- 🧮 Udemy Certified : SAS – Programmation
-
----
-
-# Ce que je peux apporter
 - Structuration et fiabilisation des données
+- Conception de modèles analytiques robustes
 - Création de dashboards décisionnels orientés métier
-- Automatisation des reportings
-- Appui à la prise de décision stratégique
+- Industrialisation des pipelines analytiques
+- Vision complète de la chaîne Data
 
 ---
+📩 Contact
 
-# À propos de ce portfolio
-Ce portfolio met en avant :
-- une maîtrise complète de la chaîne Data
-- une forte orientation business & décision
-- des projets concrets et déployés
-- un profil opérationnel prêt pour un CDD ou CDI Data Analyst / BI
-
----
-
-> N’hésitez pas à explorer les projets, dashboards et applications.  
-> Je suis ouvert aux opportunités **Data Analyst / BI Analyst / Chargé d’Études Statistiques**.
+[LinkedIn :](https://www.linkedin.com/in/diedhiou/)
+[Email :](mdiedhio@gmail.com)
