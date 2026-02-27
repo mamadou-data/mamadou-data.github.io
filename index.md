@@ -14,8 +14,8 @@
 
 <td width="65%">
 
-Data Analyst spécialisé en **Business Intelligence et pilotage décisionnel**,  
-avec expertise en **Power BI avancé (DAX, modélisation en étoile)** et capacité à implémenter des **pipelines analytiques cloud (BigQuery, Databricks)**.
+Data Analyst spécialisé en <strong>Business Intelligence et pilotage décisionnel<strong>,  
+avec expertise en <strong>Power BI avancé (DAX, modélisation en étoile)<strong> et capacité à implémenter des <strong>pipelines analytiques cloud (BigQuery, Databricks)<strong>.
 
 Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation et aide à la décision stratégique.
 
