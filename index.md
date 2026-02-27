@@ -38,31 +38,22 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 
 ---
 
-# 💼 Expérience Professionnelle
-
-## AXA France – Chargé d’Études Statistiques  
-**2024 – 2025**
-
+# 💼 Expérience Professionnell
+## AXA France – Chargé d’Études Statistiques | septembre 2024 – septembre 2025
 - Conception de dashboards décisionnels Power BI  
 - Modélisation et optimisation de reportings  
 - Automatisation de traitements analytiques (SAS/WPS, VBA)  
 - Appui stratégique aux équipes métier  
-
 **Impact :** réduction des délais et fiabilisation des indicateurs.
-
 ---
 
-## AXA France – Chargé d’Études & Optimisation  
-**2024**
-
+## AXA France – Chargé d’Études & Optimisation | janvier 2024 - juin 2024
 - Développement de tableaux de bord BI  
 - Analyse des besoins métiers  
 - Amélioration des processus décisionnels  
-
 ---
 
 # 🧠 Compétences
-
 ## Business Intelligence
 - Power BI (DAX avancé, KPIs, optimisation modèle)
 - Modélisation en schéma étoile
@@ -79,40 +70,32 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - Régression & classification
 - Segmentation & scoring
 - ROC AUC, RMSE, F1-score
-
 ---
 
 # 🚀 Projets Phares
-
 ## 🛡️ Insurance Analytics – Star Schema BI (Databricks)
-
 - Architecture Delta Lake
 - Conception schéma étoile
 - KPIs assurance (fréquence, gravité, sinistralité)
 - Dataset optimisé Power BI
 
 👉 [Lien](https://github.com/mamadou-data/databricks-insurance-star-schema-bi)
-
 ---
 
 ## 🟡 NYC Taxi Analytics – Architecture Medallion & Power BI
-
 - Pipeline Bronze → Silver → Gold
 - Modélisation analytique optimisée
 - Dashboard décisionnel
 
 👉 [Lien](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics) 
-
 ---
 
 ## 📊 Retail Sales – Data Warehouse & BI
-
 - ETL Python
 - Data Warehouse MySQL
 - Dashboard Power BI orienté performance
 
 👉 [Lien](https://github.com/mamadou-data/retail-sales-etl-bi)
-
 ---
 
 # ☁️ Projets Cloud
@@ -126,18 +109,14 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 ---
 
 # 📉 Autres Projets
-
-Risk Scoring – Assurance  
-Churn Prediction – Télécom  
-Iris ML App  
-Web Scraping  
-Dashboards Power BI  
+- Risk Scoring – Assurance  
+- Churn Prediction – Télécom  
+- Web Scraping  
+- Dashboards Power BI  
 
 👉 [Lien](https://github.com/mamadou-data) 
-
 ---
 
 # 📩 Contact
-
 [LinkedIn](https://www.linkedin.com/in/diedhiou/)  
 Email : mdiedhio@gmail.com
