@@ -7,6 +7,7 @@ avec expertise en Power BI avancé (DAX, modélisation en étoile) et capacité 
 Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation des processus analytiques et aide à la décision stratégique.
 
 📍 France / Remote
+
 📌 Disponible immédiatement
 
 ---
