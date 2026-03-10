@@ -38,7 +38,7 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 
 ---
 
-# 💼 Expérience Professionnell
+# 💼 **Expériences Professionnelles**
 ## AXA France – Chargé d’Études Statistiques | septembre 2024 – septembre 2025
 - Conception de dashboards décisionnels Power BI  
 - Modélisation et optimisation de reportings  
@@ -53,7 +53,7 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - Amélioration des processus décisionnels  
 ---
 
-# 🧠 Compétences
+# **Compétences**
 ## Business Intelligence
 - Power BI (DAX avancé, KPIs, optimisation modèle)
 - Modélisation en schéma étoile
@@ -72,51 +72,104 @@ Expérience corporate chez AXA France, orientée fiabilisation des données, aut
 - ROC AUC, RMSE, F1-score
 ---
 
-# 🚀 Projets Phares
-## 🛡️ Insurance Analytics – Star Schema BI (Databricks)
-- Architecture Delta Lake
-- Conception schéma étoile
-- KPIs assurance (fréquence, gravité, sinistralité)
-- Dataset optimisé Power BI
+# **Projets Phares**
+### 🛡️ Insurance Analytics – Star Schema BI (Databricks)
 
-👉 [Lien](https://github.com/mamadou-data/databricks-insurance-star-schema-bi)
----
+Implémentation d’un modèle analytique assurance de niveau production.
+- Architecture cloud sur Databricks (Delta Lake)
+- Conception complète d’un schéma en étoile
+- Tables de faits & dimensions optimisées BI
+- KPIs métier : fréquence, gravité, sinistralité, segmentation portefeuille
+- Dataset optimisé pour Power BI
+**Objectif** : structurer des données complexes pour un pilotage assurance fiable et performant.
 
-## 🟡 NYC Taxi Analytics – Architecture Medallion & Power BI
+👉[Accéder au projet](https://github.com/mamadou-data/databricks-insurance-star-schema-bi)
+
+### 🟡 NYC Taxi Analytics – Architecture Medallion & Power BI
+
+Projet end-to-end sur données volumineuses.
 - Pipeline Bronze → Silver → Gold
 - Modélisation analytique optimisée
-- Dashboard décisionnel
+- Dataset Power BI performant (DAX avancé)
+- Dashboard décisionnel : tendances, analyse géographique, KPIs opérationnels
+**Objectif** : transformer des données brutes en outil décisionnel exploitable.
 
-👉 [Lien](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics) 
----
+👉[Accéder au projet](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics)
 
-## 📊 Retail Sales – Data Warehouse & BI
-- ETL Python
-- Data Warehouse MySQL
-- Dashboard Power BI orienté performance
+### 📊 Retail Sales – Data Warehouse & BI
 
-👉 [Lien](https://github.com/mamadou-data/retail-sales-etl-bi)
----
+Projet Data Analyst complet orienté pilotage commercial.
+- ETL Python avec contrôles qualité
+- Data Warehouse MySQL en schéma étoile
+- Modélisation BI & KPIs commerciaux
+- Dashboard interactif orienté performance
+**Objectif** : fournir des leviers de croissance via l’analyse BI.
 
-# ☁️ Projets Cloud
-
-## GCP – ELT E-commerce & BigQuery ML  
-👉 [Lien](https://github.com/mamadou-data/gcp-ecommerce-elt-ml)  
-
-## NYC Taxi – ELT Pipeline GCP  
-👉 [Lien](https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics) 
+👉[Accéder au projet](https://github.com/mamadou-data/retail-sales-etl-bi)
 
 ---
 
-# 📉 Autres Projets
-- Risk Scoring – Assurance  
-- Churn Prediction – Télécom  
-- Web Scraping  
-- Dashboards Power BI  
+## **Projets Cloud & Pipelines**
 
-👉 [Lien](https://github.com/mamadou-data) 
+### GCP – ELT E-commerce & BigQuery ML
+Pipeline ELT automatisé sur Google Cloud Platform.
+- Ingestion GCS
+- Transformation SQL BigQuery
+- Orchestration Airflow
+- Modèle BigQuery ML (ROC AUC ≈ 0.88)
+
+👉[Accéder au projet](https://github.com/mamadou-data/gcp-ecommerce-elt-ml)
+
+### NYC Taxi – ELT Pipeline GCP
+Pipeline cloud-native orchestré avec Airflow et BigQuery.
+- Chargement idempotent Parquet
+- Structuration analytique
+- Création de vues prêtes pour reporting
+
+👉[Accéder au projet](https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics)
+
+## **Projets d'Analyse & Machine Learning**
+
+### Risk Scoring – Assurance
+Segmentation et classification multi-classes pour analyse du risque.
+- Modèles supervisés
+- Importance des variables
+- Matrices de confusion & ROC
+
+👉 [Scoring](https://github.com/mamadou-data/Projet-Scoring)
+
+👉 [Prédiction du profil de risque](https://github.com/mamadou-data/Risk-Profil-Prediction) 
+
+### Churn Prediction – Télécommunications
+Modèle prédictif du départ client avec déploiement Streamlit.
+- Feature engineering
+- Comparaison de modèles
+- Évaluation complète
+
+👉 [Accéder au projet](https://github.com/mamadou-data/telco_churn_prediction)
+
+### Web Scraping & Analyse
+- Collecte automatisée de données
+- Nettoyage et analyse exploratoire.
+
+👉 [Accéder au projet](https://github.com/mamadou-data/projet-scraping)
+
+### Dashboards Power BI – Cas pratiques
+Dashboards BI sur cas Ventes, RH et CRM avec DAX avancé.
+
+👉 [Autres projets Power BI](https://github.com/mamadou-data/Power-BI)
+
 ---
 
-# 📩 Contact
+## **Ce que j’apporte**
+- Structuration et fiabilisation des données
+- Conception de modèles analytiques robustes
+- Création de dashboards décisionnels orientés métier
+- Industrialisation des pipelines analytiques
+- Vision complète de la chaîne Data
+
+---
+
+📩 **Contact**
 [LinkedIn](https://www.linkedin.com/in/diedhiou/)  
 Email : mdiedhio@gmail.com
