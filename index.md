@@ -68,6 +68,7 @@ Disponible immédiatement
 - Régression & classification
 - Segmentation & scoring
 - ROC AUC, RMSE, F1-score
+
 ---
 
 # **Projets Phares**
