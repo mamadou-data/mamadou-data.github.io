@@ -43,12 +43,14 @@ Disponible immédiatement
 - Automatisation de traitements analytiques (SAS/WPS, VBA)  
 - Appui stratégique aux équipes métier  
 **Impact :** réduction des délais et fiabilisation des indicateurs.
+
 ---
 
 ## AXA France – Chargé d’Études & Optimisation | janvier 2024 - juin 2024
 - Développement de tableaux de bord BI  
 - Analyse des besoins métiers  
-- Amélioration des processus décisionnels  
+- Amélioration des processus décisionnels
+
 ---
 
 # **Compétences**
