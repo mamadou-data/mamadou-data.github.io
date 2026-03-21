@@ -76,6 +76,13 @@ Expérience corporate chez **AXA France**, orientée fiabilisation des données,
 - Régression et classification
 - Suivi de performance et indicateurs décisionnels
 
+## Automatisation & Outils
+
+- VBA (Excel) – automatisation de reportings et traitements de données
+- SAS / WPS – automatisation de workflows analytiques
+- Python – scripts ETL et transformations
+- Excel avancé (Power Query, formules avancées)
+
 ---
 
 # **Featured Projects**
