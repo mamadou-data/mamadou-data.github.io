@@ -129,22 +129,27 @@ Projet 100 % Power BI dédié à l’analyse RH et à l’attrition des employé
 
 ### 📌 Insurance Claims Dashboard
 Projet 100 % Power BI avec 3 pages d’analyse et 1 page de modèle.
+
 👉 [Voir le projet](https://github.com/mamadou-data/insurance-claims-powerbi-dashboard)
 
 ### 📌 Human Resources Analytics
 Dashboard RH 100 % Power BI avec 4 pages d’analyse métier.
+
 👉 [Voir le projet](https://github.com/mamadou-data/human_resources_analytics)
 
 ### 📌 Retail Sales ETL BI
 Projet BI orienté performance commerciale avec 3 pages de dashboard Power BI.
+
 👉 [Voir le projet](https://github.com/mamadou-data/retail-sales-etl-bi)
 
 ### 📌 Bank Loan Analytics
 Analyse BI appliquée au domaine bancaire avec visualisation Power BI.
+
 👉 [Voir le projet](https://github.com/mamadou-data/bank-loan-analytics)
 
 ### 📌 Databricks SQL Insurance Analytics
 Projet analytique combinant modélisation de données et visualisation Power BI.
+
 👉 [Voir le projet](https://github.com/mamadou-data/databricks-sql-insurance-analytics)
 
 ---
@@ -153,22 +158,27 @@ Projet analytique combinant modélisation de données et visualisation Power BI.
 
 ### 🧱 Insurance Analytics – Star Schema BI (Databricks)
 Implémentation d’un modèle analytique assurance de niveau production.
+
 👉 [Accéder au projet](https://github.com/mamadou-data/databricks-insurance-star-schema-bi)
 
 ### 💰 GCP Finance Data Platform
 Pipeline analytique cloud sur GCP pour la transformation et l’exploitation de données financières.
+
 👉 [Accéder au projet](https://github.com/mamadou-data/gcp-finance-data-platform)
 
 ### 🚕 Databricks NYC Yellow Taxi Analytics
 Pipeline analytique sur données volumineuses avec architecture Medallion et exposition BI.
+
 👉 [Accéder au projet](https://github.com/mamadou-data/Databricks_NYC_Yellow_Taxi_Analytics)
 
 ### 🛍️ GCP E-commerce ELT ML
 Pipeline ELT cloud sur Google Cloud avec transformation BigQuery et orchestration Airflow.
+
 👉 [Accéder au projet](https://github.com/mamadou-data/gcp-ecommerce-elt-ml)
 
 ### 🚖 Yellow Taxi Trips Analytics
 Pipeline cloud-native avec BigQuery et Airflow pour la préparation de vues analytiques.
+
 👉 [Accéder au projet](https://github.com/mamadou-data/Yellow_Taxi_Trips_Analytics)
 
 ---
