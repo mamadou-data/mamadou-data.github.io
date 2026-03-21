@@ -23,7 +23,7 @@ ingestion, transformation, modélisation, visualisation et aide à la décision.
 
 Expérience corporate chez AXA France, orientée fiabilisation des données, automatisation des analyses et production d’indicateurs stratégiques.
 
-**Disponible immédiatement**  
+Disponible immédiatement
 
 <br><br>
 
