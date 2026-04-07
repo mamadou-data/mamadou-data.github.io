@@ -1,442 +1,218 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme="light">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Mamadou Diedhiou · Data Analyst BI</title>
-
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
-
-<!-- CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
-
 <body>
 
-<!-- ================= NAV ================= -->
-
 <nav>
-
-<div class="nav-name">
-Mamadou Diedhiou
-</div>
-
-<ul class="nav-links">
-
-<li><a href="#about">À propos</a></li>
-<li><a href="#projects">Projets</a></li>
-<li><a href="#qualities">Atouts</a></li>
-<li><a href="#education">Parcours</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-<div class="nav-right">
-
-<button 
-class="theme-btn" 
-onclick="toggleTheme()"
-id="themeBtn">
-
-🌙
-
-</button>
-
-</div>
-
+  <div class="nav-name">Mamadou Diedhiou</div>
+  <ul class="nav-links">
+    <li><a href="#about" data-fr="À propos" data-en="About">À propos</a></li>
+    <li><a href="#projects" data-fr="Projets" data-en="Projects">Projets</a></li>
+    <li><a href="#qualities" data-fr="Atouts" data-en="Strengths">Atouts</a></li>
+    <li><a href="#education" data-fr="Parcours" data-en="Background">Parcours</a></li>
+    <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('fr')">FR</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="theme-btn" onclick="toggleTheme()" id="themeBtn" title="Changer le thème">🌙</button>
+  </div>
 </nav>
 
-<!-- ================= HERO ================= -->
+<div class="hero-wrap">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero">
+    <div class="hero-name-title" style="font-family:'DM Mono',monospace;font-size:0.75rem;color:var(--muted);margin-bottom:8px;opacity:0;animation:fadeUp .7s .05s ease forwards;" data-fr="Mamadou DIEDHIOU" data-en="Mamadou DIEDHIOU">Mamadou DIEDHIOU</div>
+    <div class="hero-eyebrow" data-fr="Data Analyst · Business Intelligence · Certifié PL-300 · Disponible immédiatement" data-en="Data Analyst · Business Intelligence · PL-300 Certified · Available immediately">Data Analyst · Business Intelligence · Certifié PL-300 · Disponible immédiatement</div>
+    <h1>Data Analyst <em>& BI</em></h1>
+    <p class="hero-sub" data-fr="Je conçois des dashboards Power BI orientés décision, des modèles de données robustes et des pipelines analytiques cloud. Mon objectif : transformer des données brutes en pilotage métier clair, fiable et actionnable." data-en="I build decision-oriented Power BI dashboards, robust data models and cloud analytics pipelines. My goal: turn raw data into clear, reliable and actionable business insight.">Je conçois des dashboards Power BI orientés décision, des modèles de données robustes et des pipelines analytiques cloud. Mon objectif : transformer des données brutes en pilotage métier clair, fiable et actionnable.</p>
+    <div class="hero-chips">
+      <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Azure</span><span class="chip">Databricks</span><span class="chip">GCP</span>
+    </div>
+    <div class="hero-cta">
+      <a href="https://github.com/mamadou-data" target="_blank" class="btn btn-dark" data-fr="Voir GitHub" data-en="View GitHub">Voir GitHub</a>
+      <a href="#contact" class="btn btn-ghost" data-fr="Me contacter" data-en="Get in touch">Me contacter</a>
+    </div>
+  </div>
+</div>
 
-<section class="hero">
+<div class="stats">
+  <div><div class="stat-n">10+</div><div class="stat-l" data-fr="Projets data" data-en="Data projects">Projets data</div></div>
+  <div><div class="stat-n">PL-300</div><div class="stat-l">Microsoft</div></div>
+  <div><div class="stat-n">3</div><div class="stat-l" data-fr="Piliers" data-en="Core areas">Piliers</div></div>
+  <div><div class="stat-n">AXA</div><div class="stat-l" data-fr="Expérience métier" data-en="Business experience">Expérience métier</div></div>
+</div>
 
-<h1>
-Data Analyst <em>& BI</em>
-</h1>
+<hr class="div">
 
-<p class="hero-sub">
+<div class="about-wrap">
+  <div class="about-bg"></div>
+  <section class="section" id="about">
+    <div class="sec-eyebrow" data-fr="À propos" data-en="About">À propos</div>
+    <h2 class="sec-title reveal" data-fr="Profil & <em>compétences</em>" data-en="Profile & <em>skills</em>">Profil & <em>compétences</em></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p data-fr="Data Analyst spécialisé en <strong>Business Intelligence</strong>, j'ai développé une solide expérience sur la <strong>modélisation de données</strong>, la <strong>création de KPIs</strong> et la conception de tableaux de bord Power BI adaptés aux enjeux métiers." data-en="Data Analyst specialized in <strong>Business Intelligence</strong>, with solid experience in <strong>data modeling</strong>, <strong>KPI design</strong> and building Power BI dashboards aligned with business needs.">Data Analyst spécialisé en <strong>Business Intelligence</strong>, j'ai développé une solide expérience sur la <strong>modélisation de données</strong>, la <strong>création de KPIs</strong> et la conception de tableaux de bord Power BI adaptés aux enjeux métiers.</p>
+        <p data-fr="Mon parcours m'a permis de travailler sur des sujets variés : analytics assurance, RH, ventes, pipelines cloud et industrialisation de la donnée. J'accorde une attention particulière à la lisibilité des analyses, à la qualité du modèle et à l'impact visuel du reporting." data-en="My background has led me to work on insurance analytics, HR, sales, cloud pipelines and data industrialization. I focus on analysis clarity, model quality and the visual impact of reporting.">Mon parcours m'a permis de travailler sur des sujets variés : analytics assurance, RH, ventes, pipelines cloud et industrialisation de la donnée. J'accorde une attention particulière à la lisibilité des analyses, à la qualité du modèle et à l'impact visuel du reporting.</p>
+        <p data-fr="Certifié <strong>Microsoft PL-300</strong>, je recherche aujourd'hui des opportunités en <strong>Data Analyst / BI Analyst / Chargé d'études</strong> pour contribuer à des projets à forte valeur décisionnelle." data-en="Certified <strong>Microsoft PL-300</strong>, I am currently seeking opportunities as a <strong>Data Analyst / BI Analyst / Statistical Analyst</strong> to contribute to high-value decision-making projects.">Certifié <strong>Microsoft PL-300</strong>, je recherche aujourd'hui des opportunités en <strong>Data Analyst / BI Analyst / Chargé d'études</strong> pour contribuer à des projets à forte valeur décisionnelle.</p>
+      </div>
+      <div class="skills-stack reveal">
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">📊</div><div class="sk-name">Business Intelligence</div></div><div class="sk-pills"><span class="pill">Power BI</span><span class="pill">DAX</span><span class="pill">Power Query</span><span class="pill">Data Viz</span><span class="pill">Power BI Service</span></div></div>
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">🧩</div><div class="sk-name" data-fr="Modélisation" data-en="Modeling">Modélisation</div></div><div class="sk-pills"><span class="pill">Star Schema</span><span class="pill">Snowflake</span><span class="pill">KPIs</span><span class="pill">Mesures DAX</span></div></div>
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">🗃️</div><div class="sk-name">Data & SQL</div></div><div class="sk-pills"><span class="pill">SQL</span><span class="pill">PostgreSQL</span><span class="pill">Azure SQL</span><span class="pill">BigQuery</span></div></div>
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">☁️</div><div class="sk-name">Cloud & Engineering</div></div><div class="sk-pills"><span class="pill">Azure</span><span class="pill">Databricks</span><span class="pill">GCP</span><span class="pill">ADLS Gen2</span><span class="pill">Airflow</span></div></div>
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">🐍</div><div class="sk-name">Analytics</div></div><div class="sk-pills"><span class="pill">Python</span><span class="pill">Pandas</span><span class="pill">Scikit-learn</span><span class="pill">EDA</span></div></div>
+        <div class="sk-row"><div class="sk-head"><div class="sk-ico">⚙️</div><div class="sk-name">Automatisation</div></div><div class="sk-pills"><span class="pill">VBA</span><span class="pill">Git</span><span class="pill">Docker</span><span class="pill">Documentation</span></div></div>
+      </div>
+    </div>
+  </section>
+</div>
 
-Je conçois des dashboards Power BI orientés décision,
-des modèles de données robustes et des pipelines analytiques cloud.
+<hr class="div">
 
-Mon objectif :
-transformer des données brutes en pilotage métier clair,
-fiable et actionnable.
+<section class="section" id="projects">
+  <div class="sec-eyebrow" data-fr="Projets" data-en="Projects">Projets</div>
+  <h2 class="sec-title reveal" data-fr="Ce que j'ai <em>construit</em>" data-en="What I've <em>built</em>">Ce que j'ai <em>construit</em></h2>
+  <div class="projects-grid">
 
-</p>
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=160&fit=crop&auto=format" alt="Power BI dashboard">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">Insurance Claims Power BI Dashboard</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" data-fr="Dashboard Power BI orienté assurance pour le suivi des sinistres, primes, couvertures et profils clients. Travail sur le modèle étoile, les KPIs et la lisibilité métier." data-en="Insurance-focused Power BI dashboard for claims, premiums, coverage and customer profiles. Built around star schema, KPIs and business readability.">Dashboard Power BI orienté assurance pour le suivi des sinistres, primes, couvertures et profils clients. Travail sur le modèle étoile, les KPIs et la lisibilité métier.</div>
+        <div class="proj-pills"><span class="pill">Power BI</span><span class="pill">DAX</span><span class="pill">Star Schema</span><span class="pill">Insurance Analytics</span></div>
+        <a href="https://github.com/mamadou-data/insurance-claims-powerbi-dashboard" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-<a 
-href="https://github.com/mamadou-data"
-target="_blank"
-class="btn">
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=160&fit=crop&auto=format" alt="HR analytics">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">Human Resources Analytics</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" data-fr="Projet d'analyse RH avec indicateurs d'attrition, segmentation des profils et restitution visuelle sur plusieurs pages Power BI pour faciliter le pilotage des ressources humaines." data-en="HR analytics project with attrition indicators, profile segmentation and a multi-page Power BI report to support workforce decisions.">Projet d'analyse RH avec indicateurs d'attrition, segmentation des profils et restitution visuelle sur plusieurs pages Power BI pour faciliter le pilotage des ressources humaines.</div>
+        <div class="proj-pills"><span class="pill">Power BI</span><span class="pill">HR Analytics</span><span class="pill">KPIs</span><span class="pill">Storytelling</span></div>
+        <a href="https://github.com/mamadou-data/human_resources_analytics" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-Voir GitHub
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=160&fit=crop&auto=format" alt="Retail sales">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">Retail Sales ETL & BI</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" data-fr="Pipeline analytique orienté ventes avec préparation des données, structuration du modèle et restitution BI pour l'analyse des revenus, commandes et performances produits." data-en="Sales-oriented analytics pipeline with data preparation, model structuring and BI reporting for revenue, orders and product performance.">Pipeline analytique orienté ventes avec préparation des données, structuration du modèle et restitution BI pour l'analyse des revenus, commandes et performances produits.</div>
+        <div class="proj-pills"><span class="pill">ETL</span><span class="pill">SQL</span><span class="pill">Power BI</span><span class="pill">Sales Analytics</span></div>
+        <a href="https://github.com/mamadou-data/retail-sales-etl-bi" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-</a>
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=160&fit=crop&auto=format" alt="Azure databricks">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">Azure Databricks Insurance Pipeline</div><span class="proj-status s-wip" data-fr="En valeur" data-en="Featured">En valeur</span></div>
+        <div class="proj-desc" data-fr="Architecture Medallion Bronze/Silver/Gold sur Azure Data Lake et Databricks pour un projet analytique assurance orienté engineering + BI." data-en="Medallion Bronze/Silver/Gold architecture on Azure Data Lake and Databricks for an insurance analytics project focused on engineering + BI.">Architecture Medallion Bronze/Silver/Gold sur Azure Data Lake et Databricks pour un projet analytique assurance orienté engineering + BI.</div>
+        <div class="proj-pills"><span class="pill">Azure</span><span class="pill">Databricks</span><span class="pill">Medallion</span><span class="pill">Delta Lake</span></div>
+        <a href="https://github.com/mamadou-data/azure-databricks-insurance-pipeline" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-</section>
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=160&fit=crop&auto=format" alt="GCP project">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">GCP Finance Data Platform</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" data-fr="Projet cloud orienté plateforme de données avec ingestion, stockage, transformation et exploitation analytique sur Google Cloud Platform." data-en="Cloud data platform project involving ingestion, storage, transformation and analytics on Google Cloud Platform.">Projet cloud orienté plateforme de données avec ingestion, stockage, transformation et exploitation analytique sur Google Cloud Platform.</div>
+        <div class="proj-pills"><span class="pill">GCP</span><span class="pill">BigQuery</span><span class="pill">ELT</span><span class="pill">Cloud</span></div>
+        <a href="https://github.com/mamadou-data/gcp-finance-data-platform" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-<!-- ================= ABOUT ================= -->
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=160&fit=crop&auto=format" alt="A/B testing">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title">A/B Testing Analytics</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" data-fr="Projet analytique Python autour des tests A/B : génération de données, mesure de l'uplift, lecture statistique des écarts de conversion et documentation claire du raisonnement." data-en="Python analytics project around A/B testing: data generation, uplift measurement, statistical interpretation of conversion differences and clear documentation.">Projet analytique Python autour des tests A/B : génération de données, mesure de l'uplift, lecture statistique des écarts de conversion et documentation claire du raisonnement.</div>
+        <div class="proj-pills"><span class="pill">Python</span><span class="pill">Statistics</span><span class="pill">Experimentation</span><span class="pill">EDA</span></div>
+        <a href="https://github.com/mamadou-data" target="_blank" class="proj-link">GitHub →</a>
+      </div>
+    </div>
 
-<section 
-class="section" 
-id="about">
-
-<h2 class="sec-title">
-
-Profil & <em>compétences</em>
-
-</h2>
-
-<p>
-
-Data Analyst spécialisé en 
-<strong>Business Intelligence</strong>,
-avec une expertise en :
-
-</p>
-
-<br>
-
-<ul>
-
-<li>Power BI avancé (DAX, KPIs)</li>
-<li>Modélisation en étoile</li>
-<li>SQL et préparation de données</li>
-<li>Azure, Databricks et GCP</li>
-<li>Automatisation VBA</li>
-
-</ul>
-
+  </div>
 </section>
 
 <hr class="div">
 
-<!-- ================= PROJECTS ================= -->
-
-<section 
-class="section" 
-id="projects">
-
-<h2 class="sec-title">
-
-Ce que j'ai <em>construit</em>
-
-</h2>
-
-<div class="projects-grid">
-
-<!-- PROJECT 1 -->
-
-<div class="proj">
-
-<img 
-src="assets/img/projects/insurance-dashboard.jpg"
-alt="Insurance Dashboard">
-
-<div class="proj-body">
-
-<div class="proj-title">
-Insurance Claims Dashboard
-</div>
-
-<div class="proj-desc">
-
-Dashboard Power BI pour l'analyse des sinistres,
-primes et couvertures clients.
-
-</div>
-
-<a 
-href="https://github.com/mamadou-data/insurance-claims-powerbi-dashboard"
-target="_blank"
-class="proj-link">
-
-GitHub →
-
-</a>
-
-</div>
-
-</div>
-
-<!-- PROJECT 2 -->
-
-<div class="proj">
-
-<img 
-src="assets/img/projects/hr-analytics.jpg"
-alt="HR Analytics">
-
-<div class="proj-body">
-
-<div class="proj-title">
-Human Resources Analytics
-</div>
-
-<div class="proj-desc">
-
-Analyse RH avec indicateurs d'attrition
-et segmentation des profils.
-
-</div>
-
-<a 
-href="https://github.com/mamadou-data/human_resources_analytics"
-target="_blank"
-class="proj-link">
-
-GitHub →
-
-</a>
-
-</div>
-
-</div>
-
-<!-- PROJECT 3 -->
-
-<div class="proj">
-
-<img 
-src="assets/img/projects/retail-sales.jpg"
-alt="Retail Sales">
-
-<div class="proj-body">
-
-<div class="proj-title">
-Retail Sales ETL & BI
-</div>
-
-<div class="proj-desc">
-
-Pipeline analytique pour l'analyse
-des ventes et performances produits.
-
-</div>
-
-<a 
-href="https://github.com/mamadou-data/retail-sales-etl-bi"
-target="_blank"
-class="proj-link">
-
-GitHub →
-
-</a>
-
-</div>
-
-</div>
-
-<!-- PROJECT 4 -->
-
-<div class="proj">
-
-<img 
-src="assets/img/projects/azure-pipeline.jpg"
-alt="Azure Pipeline">
-
-<div class="proj-body">
-
-<div class="proj-title">
-Azure Databricks Pipeline
-</div>
-
-<div class="proj-desc">
-
-Architecture Medallion Bronze,
-Silver et Gold sur Azure.
-
-</div>
-
-<a 
-href="https://github.com/mamadou-data/azure-databricks-insurance-pipeline"
-target="_blank"
-class="proj-link">
-
-GitHub →
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
+<section class="section" id="qualities">
+  <div class="sec-eyebrow" data-fr="Forces" data-en="Strengths">Forces</div>
+  <h2 class="sec-title reveal" data-fr="Mes <em>atouts</em>" data-en="My <em>strengths</em>">Mes <em>atouts</em></h2>
+  <div class="qualities-grid reveal">
+    <div class="q-card"><div class="q-icon">📌</div><div class="q-title" data-fr="Orientation métier" data-en="Business focus">Orientation métier</div><div class="q-desc" data-fr="Je cherche toujours à relier la donnée à une décision concrète, un besoin opérationnel ou un enjeu de pilotage." data-en="I always connect data to a concrete decision, operational need or reporting objective.">Je cherche toujours à relier la donnée à une décision concrète, un besoin opérationnel ou un enjeu de pilotage.</div></div>
+    <div class="q-card"><div class="q-icon">🧠</div><div class="q-title" data-fr="Esprit analytique" data-en="Analytical mindset">Esprit analytique</div><div class="q-desc" data-fr="Je structure les problèmes, identifie les bons indicateurs et propose des analyses lisibles pour faciliter l'action." data-en="I structure problems, identify the right indicators and build readable analyses that support action.">Je structure les problèmes, identifie les bons indicateurs et propose des analyses lisibles pour faciliter l'action.</div></div>
+    <div class="q-card"><div class="q-icon">🎯</div><div class="q-title" data-fr="Sens du reporting" data-en="Reporting sense">Sens du reporting</div><div class="q-desc" data-fr="Je conçois des tableaux de bord pensés pour l'utilisateur final, avec une attention portée à la hiérarchie visuelle et à la clarté des KPIs." data-en="I design dashboards for end users, with strong attention to visual hierarchy and KPI clarity.">Je conçois des tableaux de bord pensés pour l'utilisateur final, avec une attention portée à la hiérarchie visuelle et à la clarté des KPIs.</div></div>
+    <div class="q-card"><div class="q-icon">⚙️</div><div class="q-title" data-fr="Automatisation" data-en="Automation">Automatisation</div><div class="q-desc" data-fr="J'aime fiabiliser les process avec VBA, SQL ou des pipelines data afin de gagner du temps et réduire les tâches répétitives." data-en="I like making processes more reliable with VBA, SQL or data pipelines to save time and reduce repetitive work.">J'aime fiabiliser les process avec VBA, SQL ou des pipelines data afin de gagner du temps et réduire les tâches répétitives.</div></div>
+    <div class="q-card"><div class="q-icon">🤝</div><div class="q-title" data-fr="Collaboration" data-en="Collaboration">Collaboration</div><div class="q-desc" data-fr="Mes expériences chez AXA m'ont appris à travailler avec des interlocuteurs métier, à reformuler les besoins et à livrer des solutions adaptées." data-en="My experience at AXA taught me how to work with business stakeholders, clarify needs and deliver relevant solutions.">Mes expériences chez AXA m'ont appris à travailler avec des interlocuteurs métier, à reformuler les besoins et à livrer des solutions adaptées.</div></div>
+    <div class="q-card"><div class="q-icon">📚</div><div class="q-title" data-fr="Apprentissage continu" data-en="Continuous learning">Apprentissage continu</div><div class="q-desc" data-fr="Je continue à développer mes compétences sur Power BI, Azure, GCP, Databricks et l'ingénierie analytique à travers des projets concrets." data-en="I continuously grow my skills in Power BI, Azure, GCP, Databricks and analytics engineering through hands-on projects.">Je continue à développer mes compétences sur Power BI, Azure, GCP, Databricks et l'ingénierie analytique à travers des projets concrets.</div></div>
+  </div>
 </section>
 
 <hr class="div">
 
-<!-- ================= QUALITIES ================= -->
-
-<section 
-class="section"
-id="qualities">
-
-<h2 class="sec-title">
-
-Mes <em>atouts</em>
-
-</h2>
-
-<div class="qualities-grid">
-
-<div class="q-card">
-
-<div class="q-icon">
-📌
-</div>
-
-<div class="q-title">
-Orientation métier
-</div>
-
-<div class="q-desc">
-
-Transformer la donnée en décision concrète.
-
-</div>
-
-</div>
-
-<div class="q-card">
-
-<div class="q-icon">
-🧠
-</div>
-
-<div class="q-title">
-Esprit analytique
-</div>
-
-<div class="q-desc">
-
-Structurer les analyses pour faciliter l'action.
-
-</div>
-
-</div>
-
-<div class="q-card">
-
-<div class="q-icon">
-⚙️
-</div>
-
-<div class="q-title">
-Automatisation
-</div>
-
-<div class="q-desc">
-
-Fiabilisation des process avec SQL et VBA.
-
-</div>
-
-</div>
-
-</div>
-
+<section class="section" id="education">
+  <div class="sec-eyebrow" data-fr="Parcours" data-en="Background">Parcours</div>
+  <h2 class="sec-title reveal" data-fr="Formation & <em>expérience</em>" data-en="Education & <em>experience</em>">Formation & <em>expérience</em></h2>
+  <div class="edu-grid">
+    <div>
+      <div class="edu-col-title" data-fr="Formation" data-en="Education">Formation</div>
+      <div class="tl-item reveal"><div class="tl-dot">🎓</div><div><div class="tl-date">2024 · 2025</div><div class="tl-title" data-fr="Master 2 · Innovation, Marché & Science des Données" data-en="Master 2 · Innovation, Market & Data Science">Master 2 · Innovation, Marché & Science des Données</div><div class="tl-org">Université Paris-Saclay</div><div class="tl-desc" data-fr="Data analyse · BI · modélisation · science des données appliquée" data-en="Data analysis · BI · modeling · applied data science">Data analyse · BI · modélisation · science des données appliquée</div></div></div>
+      <div class="tl-item reveal"><div class="tl-dot">📘</div><div><div class="tl-date">2022 · 2024</div><div class="tl-title" data-fr="Master 2 · Expertise Économique pour les Organisations" data-en="Master 2 · Economic Expertise for Organizations">Master 2 · Expertise Économique pour les Organisations</div><div class="tl-org">Université de Lille</div><div class="tl-desc" data-fr="Analyse quantitative · statistiques · économie appliquée" data-en="Quantitative analysis · statistics · applied economics">Analyse quantitative · statistiques · économie appliquée</div></div></div>
+      <div class="tl-item reveal"><div class="tl-dot">📐</div><div><div class="tl-date">2022 · 2023</div><div class="tl-title" data-fr="Licence 3 · Économétrie" data-en="Bachelor · Econometrics">Licence 3 · Économétrie</div><div class="tl-org">Université d'Orléans</div><div class="tl-desc" data-fr="Économétrie · statistiques · modélisation" data-en="Econometrics · statistics · modeling">Économétrie · statistiques · modélisation</div></div></div>
+    </div>
+    <div>
+      <div class="edu-col-title" data-fr="Expérience & certifications" data-en="Experience & certifications">Expérience & certifications</div>
+      <div class="tl-item reveal"><div class="tl-dot">💼</div><div><div class="tl-date">2025 · 2026</div><div class="tl-title" data-fr="Chargé d'études statistiques · Alternance" data-en="Statistical Analyst · Apprenticeship">Chargé d'études statistiques · Alternance</div><div class="tl-org">AXA France</div><div class="tl-desc" data-fr="Dashboards de pilotage · SQL · automatisation VBA · aide à la décision" data-en="Management dashboards · SQL · VBA automation · decision support">Dashboards de pilotage · SQL · automatisation VBA · aide à la décision</div></div></div>
+      <div class="tl-item reveal"><div class="tl-dot">🏅</div><div><div class="tl-date">2026</div><div class="tl-title">Microsoft PL-300</div><div class="tl-org">Power BI Data Analyst Associate</div><div class="tl-desc" data-fr="Certification officielle Microsoft validant les compétences en préparation, modélisation, visualisation et analyse sous Power BI." data-en="Official Microsoft certification validating Power BI preparation, modeling, visualization and analysis skills.">Certification officielle Microsoft validant les compétences en préparation, modélisation, visualisation et analyse sous Power BI.</div></div></div>
+      <div class="tl-item reveal"><div class="tl-dot">☁️</div><div><div class="tl-date">2026</div><div class="tl-title">Azure Data Fundamentals</div><div class="tl-org">Microsoft</div><div class="tl-desc" data-fr="Fondamentaux de l'écosystème data Azure et compréhension des services cloud analytiques." data-en="Azure data fundamentals and understanding of analytical cloud services.">Fondamentaux de l'écosystème data Azure et compréhension des services cloud analytiques.</div></div></div>
+    </div>
+  </div>
 </section>
 
 <hr class="div">
 
-<!-- ================= EDUCATION ================= -->
-
-<section 
-class="section"
-id="education">
-
-<h2 class="sec-title">
-
-Formation & <em>expérience</em>
-
-</h2>
-
-<ul>
-
-<li>
-
-<strong>AXA France</strong>  
-Chargé d'études statistiques
-
-</li>
-
-<li>
-
-<strong>Microsoft PL-300</strong>  
-Power BI Data Analyst Associate
-
-</li>
-
-<li>
-
-<strong>Master Data Science</strong>  
-Université Paris-Saclay
-
-</li>
-
-</ul>
-
-</section>
-
-<hr class="div">
-
-<!-- ================= CONTACT ================= -->
-
-<section 
-class="section"
-id="contact">
-
-<h2 class="sec-title">
-
-Travaillons <em>ensemble</em>
-
-</h2>
-
-<p>
-
-Email :
-<strong>
-ton.email@example.com
-</strong>
-
-</p>
-
-<p>
-
-GitHub :
-
-<a 
-href="https://github.com/mamadou-data"
-target="_blank">
-
-github.com/mamadou-data
-
-</a>
-
-</p>
-
-</section>
-
-<!-- ================= FOOTER ================= -->
+<div class="contact-wrap-bg">
+  <div class="contact-bg-img"></div>
+  <section class="section" id="contact">
+    <div class="sec-eyebrow">Contact</div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <h2 class="contact-h" data-fr="Travaillons<br><em>ensemble.</em>" data-en="Let's work<br><em>together.</em>">Travaillons<br><em>ensemble.</em></h2>
+        <p class="contact-sub" data-fr="Je suis ouvert aux opportunités en Data Analyst, BI Analyst ou Chargé d'études statistiques, avec un intérêt fort pour les environnements data, assurance, finance et pilotage métier." data-en="I am open to opportunities as a Data Analyst, BI Analyst or Statistical Analyst, with strong interest in data, insurance, finance and business reporting environments.">Je suis ouvert aux opportunités en Data Analyst, BI Analyst ou Chargé d'études statistiques, avec un intérêt fort pour les environnements data, assurance, finance et pilotage métier.</p>
+        <div class="contact-links">
+          <a href="mailto:ton.email@example.com" class="c-row"><div class="c-ico">✉</div><div><div class="c-key">Email</div><div class="c-val">ton.email@example.com</div></div></a>
+          <a href="https://github.com/mamadou-data" target="_blank" class="c-row"><div class="c-ico">⬡</div><div><div class="c-key">GitHub</div><div class="c-val">mamadou-data</div></div></a>
+          <a href="https://mamadou-data.github.io/" target="_blank" class="c-row"><div class="c-ico">🌐</div><div><div class="c-key">Portfolio</div><div class="c-val">mamadou-data.github.io</div></div></a>
+          <div class="c-row"><div class="c-ico">📍</div><div><div class="c-key" data-fr="Localisation" data-en="Location">Localisation</div><div class="c-val">Île-de-France, France</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
 <footer>
-
-© 2026 Mamadou Diedhiou
-
+  <div class="foot-l">© 2026 Mamadou Diedhiou</div>
+  <div class="foot-r">
+    <a href="https://github.com/mamadou-data" target="_blank" class="foot-a">GitHub</a>
+    <a href="https://mamadou-data.github.io/" target="_blank" class="foot-a">Portfolio</a>
+    <a href="mailto:ton.email@example.com" class="foot-a">Email</a>
+  </div>
 </footer>
 
-<!-- JS -->
-
 <script src="assets/js/script.js"></script>
-
 </body>
-
 </html>
